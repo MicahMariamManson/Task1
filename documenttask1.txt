@@ -41,7 +41,11 @@ Bitbucket
 
 
 5. Cloning a repo to local
-         To clone a Git repository to your local machine, first, copy the repository URL from the platform such as GitHub or GitLab. Open a terminal window and navigate to the directory where you want to store the local copy. Use the  git clone  command followed by the repository URL to initiate the cloning process. Once the cloning is complete, you will have a local copy of the repository in the specified directory. You can navigate into the cloned directory using the  cd  command and start working on the project locally, with the ability to make changes and synchronize with the remote repository when needed.
+         To clone a Git repository to your local machine, first, copy the repository URL from the platform such as GitHub or GitLab. 
+         Open a terminal window and navigate to the directory where you want to store the local copy. 
+         Use the  git clone  command followed by the repository URL to initiate the cloning process. 
+         Once the cloning is complete, you will have a local copy of the repository in the specified directory. 
+         You can navigate into the cloned directory using the  cd  command and start working on the project locally, with the ability to make changes and synchronize with the remote repository when needed.
 
 6. Resources used
 
