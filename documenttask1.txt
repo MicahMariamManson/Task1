@@ -1,0 +1,51 @@
+     TASK 1
+
+1. Concepts of Git explaining various terms 
+        1. Repository:  A repository is the most basic element of GitHub. A repository in Git is a storage location where a project's files and version history are stored. Repositories can have multiple collaborators and can be either public or private. 
+        2. Cloning: A process of creating a copy of the existing git repository in the local machine. It helps to work on the project locally.
+        3. Forking:  The process of creating a personal copy of someone a repository which enables independent development. It helps to work with changes without affecting the original project. It allows to make changes and propose the changes to the original repository.
+        4. Branch:  It is the separate version of original repository. It allows to work on different features without affecting the main code. Later we can decide whether to merge those changes back to the project.
+        5. Merge: It allows to record the changes made to the project over time and helps to combine the changes from two or more branches into a single branch.
+        6. Pull request: Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub.
+ 
+2. Write basic commands of git
+
+         1. git config: It lets you get and set configuration variables that control all aspects of how git looks and operates. It enables users to customize various aspects of Git, such as identity, text editor, and repository-specific settings.
+         2. git init: It creates a new git repository to work on a new project.
+         3. git clone: It is used to download or create a copy of a remote git repository on local machine.
+         4. git add: It adds all the local changes of your working copy  to the Git staging area so that the changes can be committed to your local repository.
+         5. git commit: It is used to record and save the changes in the local repository. It creates a snapshot of changes made and stores them in the history of repository.
+         6. git branch: It is used to determine what branch the local repository is on.
+         7. git push: It is used to transfer the commits or pushing the content from the local repository to the remote repository.
+         8. git pull: It is used to get updates from the remote repository.
+         9. git merge: It is used to combine various data created by different git branch and integrate them into one branch.
+
+3. Add concepts on GitHub, GitLab and Bitbucket
+
+GitHub
+          It is a web-based platform for version controlled using Git. It provides a collaborative environment for software developers to host and review codes, manage projects and facilitate team collaboration. It is a widely used platform for both open source and private software developmental projects. Users can host their Git repositories, create branches, submit pull requests, and utilize issue tracking.
+
+GitLab
+         It is a web based git repository that provides free open and private repositories, issue-following capabilities. It is a complete DevOps platform that enables professionals to perform all the tasks in a project from project planning and source code management to monitoring and security.
+
+Bitbucket
+          It is the repository management tool that is specially built for expert teams and professionals. It is also called as Git repository management software and is a central hub for handling all the git repository. It allows users to do basic git operations such as reviewing or merging code. It is focused on private repositories while GitHub is a better fit for public repositories.
+
+4. Industrial practices of using git
+
+* Make incremental, small changes
+* Develop using branches
+* Write descriptive commit messages
+* Obtain feedback through code reviews
+* Identify a branching strategy
+
+
+5. Cloning a repo to local
+         To clone a Git repository to your local machine, first, copy the repository URL from the platform such as GitHub or GitLab. Open a terminal window and navigate to the directory where you want to store the local copy. Use the  git clone  command followed by the repository URL to initiate the cloning process. Once the cloning is complete, you will have a local copy of the repository in the specified directory. You can navigate into the cloned directory using the  cd  command and start working on the project locally, with the ability to make changes and synchronize with the remote repository when needed.
+
+6. Resources used
+
+* GitHub Docs
+* GeeksforGeeks
+* Stack overflow
+* ChatGPT
